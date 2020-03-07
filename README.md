@@ -1,11 +1,16 @@
-# Predictive Customer Analytics for Optimizing Business Growth (Customer Segmentation and Consumer Behavior Prediction)
+# Predictive Analytics for Optimizing Business Growth (Customer Segmentation and Consumer Behavior Prediction)
 
 
 ## Problem Statement
 
+![predictive_analytics](./assets/predictive_analytics.png)
+
 In this project, I provide data-based insights into the consumer behaviors and make predictions on their future behaviors in order to help an online retailer optimize their business growth. The customer behaviors are for example their retention rate, next purchase day and more.
 
-I first define some Key Performance Metrics (KPIs) that represent the company's business goal and segment the customers based on the KPIs. I then predict the behaviors of each customer groups.
+As supposed to traditional data analysis in marketing (descriptive analytics), predictive analytics involves modeling, data mining and machine learning algorithms to predict and forecast what will happen in the future. In the first two sections of the project, I define some Key Performance Metrics (KPIs) that represent the company's business goal and segment the customers based on the KPIs. I then use predictive analytics to predict the behaviors of each customer groups.
+
+Source: https://www.educba.com/data-analytics-vs-predictive-analytics/
+
 
 ## About this Repository
 
