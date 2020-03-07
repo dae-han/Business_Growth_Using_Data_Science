@@ -93,6 +93,7 @@ To pick the best model for the prediction, I fitted the features to a list of so
 
  I picked the one that had the best accuracy score, which was XG Boost Classifier in this example. I then performed GridSearch to find the hyper-parameters.
 
-## Next Step
-
 ## Source
+
+- https://www.educba.com/data-analytics-vs-predictive-analytics/
+- https://www.kaggle.com/vijayuv/onlineretail
