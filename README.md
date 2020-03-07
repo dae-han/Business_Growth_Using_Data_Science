@@ -3,14 +3,22 @@
 
 ## Problem Statement
 
-In this project, I provided data-based insights into the consumer behaviors and made predictions on their future moves in order to help an online retailer optimize their business growth.
+In this project, I provide data-based insights into the consumer behaviors and make predictions on their future behaviors in order to help an online retailer optimize their business growth. The customer behaviors are for example their retention rate, next purchase day and more.
 
-I first defined some Key Performance Metrics (KPIs) that represent the company's business goal and segmented the customers based on the KPIs. I then predicted the behaviors of each customer groups.
+I first define some Key Performance Metrics (KPIs) that represent the company's business goal and segment the customers based on the KPIs. I then predict the behaviors of each customer groups.
 
 ## About this Repository
 
 ### Data
-The data is from an online retailer and it contains information about all sales made during an eight month period.
+The data is from an online retailer and it contains information about all sales made during an eight month period. The columns in this data are the following.
+- InvoiceNo
+- StockCode
+- Description
+- Quantity
+- InvoiceDate
+- UnitPrice
+- CustomerID
+- Country
 
 Source: https://www.kaggle.com/vijayuv/onlineretail
 
@@ -26,10 +34,13 @@ stretch goal
 --> dashboarding these metrics, building pipeline
 
 ### `02_Customer_Segmentation.ipynb`
+This part of the project is to help the business understand the value of each customers. I gave each customers an overall RFM (Recency, Frequency, and Monetary Value) score. I then executed clustering analysis to segment the customers based on the score into three groups-low, mid and high value customers.
 
-
+ By segmenting customers into different groups, the business can execute personalized marketing strategies to different user groups. In this example, I speculated that high value customers need marketing strategies that improve their recency, whereas for low value customers, marketing strategies to increase their frequency will work better. The effectiveness of the new actions can be tested and evaluated by using A/B testing frameworks and market respond modeling, which I cover in [another project](https://github.com/dae-han/AB_Testing_Framework_and_Market_Response).
 
 ### `03_Lifetime_Value_Prediction.ipynb`
+Lifetime Value (LTV) of a customer is gross profit margin the customer brought to the company within a set timeframe.
+
 ### `04_Churn_Prediction.ipynb`
 ### `05_Next_Purchase_Day_Prediction.ipynb`
 
