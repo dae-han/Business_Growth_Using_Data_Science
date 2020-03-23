@@ -97,3 +97,4 @@ To pick the best model for the prediction, I fitted the features to a list of so
 
 - https://www.educba.com/data-analytics-vs-predictive-analytics/
 - https://www.kaggle.com/vijayuv/onlineretail
+- https://towardsdatascience.com/data-driven-growth-with-python-part-1-know-your-metrics-812781e66a5b
